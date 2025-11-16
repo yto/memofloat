@@ -83,6 +83,12 @@
   background: #ffffff;
 }
 
+/*
+#overlay-memo-content * {
+  font-size: inherit !important;
+}
+*/
+
 #overlay-memo-resize {
   width: 14px;
   height: 14px;
@@ -165,7 +171,7 @@
 
         const title = document.createElement('span');
         title.id = 'overlay-memo-title';
-        title.textContent = 'Memo';
+        title.textContent = 'MemoFloat';
 
         const controls = document.createElement('div');
         controls.id = 'overlay-memo-controls';
@@ -284,6 +290,16 @@
         }
 
         // ------------------------
+        // ペースト プレーンテキスト
+        // ------------------------
+	content.addEventListener('paste', (e) => {
+	    e.preventDefault();
+	    const text = (e.clipboardData || window.clipboardData).getData('text/plain');
+	    // execCommand は非推奨だけど、contenteditable ならまだよく使われます
+	    document.execCommand('insertText', false, text);
+	});
+
+	// ------------------------
         // 各種ボタン
         // ------------------------
 
