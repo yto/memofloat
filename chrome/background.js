@@ -9,10 +9,10 @@ chrome.action.onClicked.addListener((tab) => {
 // ショートカットから
 chrome.commands.onCommand.addListener((command) => {
     if (command === "toggle-overlay-memo") {
-	chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-	    const tab = tabs[0];
-	    if (!tab || !tab.id) return;
-	    chrome.tabs.sendMessage(tab.id, { type: "toggle-memo" });
-	});
+        chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+            const tab = tabs[0];
+            if (!tab || !tab.id) return;
+            chrome.tabs.sendMessage(tab.id, { type: "toggle-memo" });
+        });
     }
 });
