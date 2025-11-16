@@ -1,7 +1,12 @@
 # MemoFloat
 
+(English/[Japanese](README-ja.md))
+
 A lightweight Chrome extension that displays a floating memo overlay on any webpage.  
 Move it, resize it, type freely — and MemoFloat remembers everything per page.
+
+## Chrome Web Store  
+Coming soon…
 
 ## Features
 
@@ -45,11 +50,6 @@ MemoFloat automatically saves the memo state when:
 
 When you revisit the same page, MemoFloat restores the previous memo  
 **only if it was visible last time**.
-
-## Installation
-
-### From Chrome Web Store  
-Coming soon…
 
 ## Permissions
 
