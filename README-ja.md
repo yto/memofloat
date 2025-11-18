@@ -6,7 +6,9 @@
 自由に動かし、サイズを変え、直接入力でき、ページごとに状態を自動保存します。
 
 ## Chrome ウェブストア
-近日公開予定…
+
+MemoFloat - Chrome Web Store
+https://chromewebstore.google.com/detail/memofloat/pldhpkkjackfhfajdlmgoifcbgpfijcp?authuser=0&hl=ja
 
 ## 特長
 

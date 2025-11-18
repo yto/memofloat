@@ -6,7 +6,9 @@ A lightweight Chrome extension that displays a floating memo overlay on any webp
 Move it, resize it, type freely — and MemoFloat remembers everything per page.
 
 ## Chrome Web Store  
-Coming soon…
+
+MemoFloat - Chrome Web Store
+https://chromewebstore.google.com/detail/memofloat/pldhpkkjackfhfajdlmgoifcbgpfijcp?authuser=0&hl=ja
 
 ## Features
 
