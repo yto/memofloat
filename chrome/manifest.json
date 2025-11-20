@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "MemoFloat",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A floating memo overlay for any webpage.",
     "permissions": [
         "storage",
@@ -26,7 +26,6 @@
         {
             "matches": ["<all_urls>"],
             "js": ["content.js"],
-            "css": ["style.css"],
             "run_at": "document_idle"
         }
     ],

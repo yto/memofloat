@@ -6,8 +6,9 @@
   top: 80px;
   left: 80px;
   width: 260px;
-  min-width: 180px;
-  min-height: 120px;
+  height: 120px;
+  min-width: 220px;
+  min-height: 80px;
   max-width: 90vw;
   max-height: 80vh;
   background: #f4f4f4;
@@ -389,8 +390,8 @@
             const deltaX = e.clientX - startX;
             const deltaY = e.clientY - startY;
 
-            const newWidth = Math.max(180, startWidth + deltaX);
-            const newHeight = Math.max(120, startHeight + deltaY);
+            const newWidth = Math.max(220, startWidth + deltaX);
+            const newHeight = Math.max(80, startHeight + deltaY);
 
             note.style.width = newWidth + 'px';
             note.style.height = newHeight + 'px';

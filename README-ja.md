@@ -8,7 +8,7 @@
 ## Chrome ウェブストア
 
 MemoFloat - Chrome Web Store
-https://chromewebstore.google.com/detail/memofloat/pldhpkkjackfhfajdlmgoifcbgpfijcp?authuser=0&hl=ja
+https://chromewebstore.google.com/detail/memofloat/pldhpkkjackfhfajdlmgoifcbgpfijcp
 
 ## 特長
 

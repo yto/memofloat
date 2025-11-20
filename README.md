@@ -8,7 +8,7 @@ Move it, resize it, type freely — and MemoFloat remembers everything per page.
 ## Chrome Web Store  
 
 MemoFloat - Chrome Web Store
-https://chromewebstore.google.com/detail/memofloat/pldhpkkjackfhfajdlmgoifcbgpfijcp?authuser=0&hl=ja
+https://chromewebstore.google.com/detail/memofloat/pldhpkkjackfhfajdlmgoifcbgpfijcp
 
 ## Features
 
