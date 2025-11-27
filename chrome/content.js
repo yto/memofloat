@@ -211,6 +211,13 @@
         content.spellcheck = false;
         content.style.fontSize = fontSizePx + 'px';
 
+        // ★ メモ帳内のキー入力をページショートカットに伝播させない
+        ["keydown", "keypress", "keyup"].forEach(type => {
+            content.addEventListener(type, e => {
+                e.stopPropagation();
+            }, true);
+        });
+
         const resizeHandle = document.createElement('div');
         resizeHandle.id = 'overlay-memo-resize';
 
